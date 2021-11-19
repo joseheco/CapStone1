@@ -1,0 +1,542 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url(//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE);
+
+/* Mbile display */
+
+@media screen and (max-width: 768px) {
+  #overlay {
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.253);
+    pointer-events: none;
+  }
+
+  #overlay.active {
+    pointer-events: all;
+    opacity: 1;
+  }
+
+  nav .mainMenu,
+  .closeMenu {
+    display: none;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  nav .top-bar {
+    display: none;
+  }
+
+  nav .closeMenu {
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 30px;
+  }
+
+  .mainMenu li {
+    margin-top: 1.5rem;
+  }
+
+  .mainMenu li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .openMenu {
+    display: block;
+    margin: 2rem;
+    cursor: pointer;
+  }
+
+  nav .mainMenu {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 50px;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    transition: top 0.8s ease;
+    display: none;
+    background-color: white;
+    list-style: none;
+    padding-bottom: 6rem;
+  }
+
+  .nav-4 {
+    color: #c7724b !important;
+    border: 3px solid #c7724b;
+    padding: 0.6rem;
+  }
+
+  header {
+    background-image: url("./img/background-h1.jpg");
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  h1,
+  .box-text,
+  .box-event,
+  .date-event,
+  .last-text {
+    margin: 2rem;
+  }
+
+  h1 {
+    font-family: 'COCOGOOSE', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    color: rgba(235, 144, 8, 0.918);
+  }
+
+  .box-text {
+    font-family: lato, sans-serif;
+    background-color: rgba(255, 255, 255, 0.644);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid white;
+    border-radius: 3px;
+    text-align: center;
+  }
+
+  .date-event {
+    font-family: lato, sans-serif;
+    display: flex;
+    justify-content: center;
+  }
+
+  .last-text {
+    font-family: lato, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+  }
+
+  main {
+    border-bottom: 1px solid lightgray;
+  }
+
+  h2 {
+    font-family: 'COCOGOOSE', sans-serif;
+    color: black;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-top: 1.5rem;
+    text-decoration: underline;
+    text-decoration-color: #c7724b;
+    text-decoration-thickness: 10%;
+    text-underline-offset: 0.6rem;
+  }
+
+  .mid-part {
+    font-family: lato, sans-serif;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+
+  .places {
+    font-family: lato, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    margin: 1rem;
+  }
+
+  .chef {
+    border: 1px solid lightgray;
+    padding: 1rem 5rem;
+    border-radius: 2px;
+  }
+
+  .chef-event-1 {
+    background-image: url("./img/event-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 2rem;
+  }
+
+  .chef-event-1 .layer {
+    background-color: rgba(226, 110, 14, 0.692);
+    z-index: 10;
+    background-position: center;
+    width: 37vh;
+    height: 25vh;
+  }
+
+  .chef-event-2 {
+    background-image: url("./img/event-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .chef-event-2 .layer {
+    background-color: rgba(226, 110, 14, 0.692);
+    z-index: 10;
+    background-position: center;
+    width: 37vh;
+    height: 25vh;
+  }
+
+  .layer .year {
+    font-family: lato, sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 4.5rem;
+    color: white;
+  }
+
+  .layer p {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+  .partner {
+    background-color: #270404;
+    color: white;
+  }
+
+  .partner h3 {
+    text-align: center;
+    padding-top: 2rem;
+    text-decoration: underline;
+    text-decoration-color: #c7724b;
+    text-underline-offset: 0.6rem;
+    text-decoration-thickness: 10%;
+  }
+
+  .partner-list li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+
+  footer .footer-list p {
+    color: black;
+  }
+
+  .partner-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 1rem;
+    list-style: none;
+  }
+
+  .img-fluid {
+    max-width: 45%;
+  }
+
+  .footer-list {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    justify-content: space-around;
+  }
+
+  .copy {
+    grid-column-start: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .peru {
+    margin-top: 2rem;
+  }
+
+  .rights {
+    grid-column-start: 2;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .openMenu,
+  .closeMenu {
+    display: none;
+  }
+
+  nav {
+    display: grid;
+  }
+
+  nav ul {
+    background-color: white;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    align-items: center;
+    border-bottom: 1px solid rgba(49, 49, 49, 0.247);
+  }
+
+  ul a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .top-bar {
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+    background-color: #8a7f7a;
+    color: white;
+    padding: 0.5rem;
+    padding-right: 5rem;
+  }
+
+  .chef-icon {
+    max-width: 60%;
+  }
+
+  .nav-4 {
+    border: 3px solid #c7724b;
+    padding: 0.6rem;
+    color: #c7724b;
+  }
+
+  header {
+    background-image: url("./img/background-h1.jpg");
+  }
+
+  .first-page {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  h1 {
+    color: rgba(235, 144, 8, 0.918);
+    font-weight: 700;
+    font-size: 50px;
+    font-family: 'COCOGOOSE', sans-serif;
+    grid-row-start: 2;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .box-text {
+    font-family: lato, sans-serif;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid white;
+    padding: 0.2rem;
+    border-radius: 3px;
+    margin-left: 11rem;
+    margin-right: 11rem;
+  }
+
+  .date-event {
+    font-family: lato, sans-serif;
+    grid-row-start: 4;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+  }
+
+  .last-text {
+    font-family: lato, sans-serif;
+    font-weight: bold;
+    margin-top: 7rem;
+    grid-row-start: 4;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+  }
+
+  main {
+    border-bottom: 1px solid lightgray;
+  }
+
+  h2 {
+    font-family: 'COCOGOOSE', sans-serif;
+    color: black;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-top: 1.5rem;
+    text-decoration: underline;
+    text-decoration-color: #c7724b;
+    text-decoration-thickness: 10%;
+    text-underline-offset: 0.6rem;
+    margin-top: 2rem;
+  }
+
+  .places {
+    text-align: center;
+    font-family: lato, sans-serif;
+  }
+
+  .mid-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+
+  .mid-part p {
+    font-family: lato, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .chef {
+    border: 1px solid lightgray;
+    padding: 1rem 5rem;
+    border-radius: 2px;
+  }
+
+  .back-about {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .chef-event-1 {
+    background-image: url("./img/event-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .chef-event-1 .layer {
+    background-color: rgba(226, 110, 14, 0.692);
+    z-index: 10;
+    background-position: center;
+    width: 37vh;
+    height: 25vh;
+  }
+
+  .chef-event-2 {
+    background-image: url("./img/event-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .chef-event-2 .layer {
+    background-color: rgba(226, 110, 14, 0.692);
+    z-index: 10;
+    background-position: center;
+    width: 37vh;
+    height: 25vh;
+  }
+
+  .layer .year {
+    display: flex;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 30px;
+    justify-content: center;
+    padding-top: 5rem;
+  }
+
+  .layer p {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+  .partner {
+    display: none;
+    background-color: #270404;
+    color: white;
+  }
+
+  .partner h3 {
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+  .partner-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    gap: 2rem;
+    margin-top: 1rem;
+    list-style: none;
+  }
+
+  .partner-list li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+
+  footer {
+    background-color: rgba(0, 0, 0, 0.842);
+    padding-bottom: 2rem;
+  }
+
+  footer .footer-list p {
+    color: white;
+  }
+
+  .footer-list {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }
+
+  .copy {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 30px;
+    grid-column-start: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .peru {
+    text-align: center;
+    font-family: late, sans-serif;
+    margin-top: 2rem;
+    margin-right: 2rem;
+  }
+
+  .rights {
+    text-align: center;
+    font-family: late, sans-serif;
+    grid-column-start: 2;
+  }
+}
