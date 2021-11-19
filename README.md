@@ -19,7 +19,7 @@ Welcome to My Capstone
 
 ## Live Demo
 
-- [Live demo](https://joseheco.github.io/Capstone1/)
+- [Live demo](https://joseheco.github.io/Capstone1/index.html)
 
 ## Prerequisites
 
