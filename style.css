@@ -3,6 +3,8 @@
   padding: 0;
 }
 
+/* Mobil display version */
+
 @media screen and (max-width: 768px) {
   #overlay {
     position: fixed;
@@ -62,15 +64,10 @@
     z-index: 10;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
     transition: top 0.8s ease;
     display: none;
     background-color: white;
     list-style: none;
-    background-image: url("./images/img-menu-1.png"),
-      url("./images/img-menu-2.png");
-    background-repeat: no-repeat, no-repeat;
-    background-position: top left, bottom;
     padding-bottom: 6rem;
   }
 
@@ -121,6 +118,14 @@
     background-image: url("./img/background-food.jpg");
   }
 
+  h2 {
+    font-family: cocogoose, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: #c7724b;
+    text-decoration-thickness: 10%;
+    text-underline-offset: 0.6rem;
+  }
+
   main h2 {
     color: white;
     text-shadow: white 0.1em 0.1em 0.2em;
@@ -129,12 +134,12 @@
     padding-top: 1.5rem;
   }
 
-  h2 {
-    font-family: cocogoose, sans-serif;
-    text-decoration: underline;
-    text-decoration-color: #c7724b;
-    text-decoration-thickness: 10%;
-    text-underline-offset: 0.6rem;
+  .box {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    padding: 1rem;
+    align-items: center;
   }
 
   .container .box {
@@ -156,14 +161,6 @@
   div p {
     color: white;
     font-family: lato, sans-serif;
-  }
-
-  .box {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 1fr;
-    padding: 1rem;
-    align-items: center;
   }
 
   .button-main {
@@ -259,6 +256,13 @@
     display: none;
   }
 
+  .partner-list p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+
   footer .footer-list p {
     color: black;
   }
@@ -274,13 +278,6 @@
 
   .img-fluid {
     max-width: 45%;
-  }
-
-  .partner-list p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1.5rem;
   }
 
   .footer-list {
@@ -316,13 +313,11 @@
 
   nav {
     display: grid;
-    grid-template-rows: 2;
   }
 
   nav ul {
     background-color: white;
     display: flex;
-    flex-direction: wrap;
     gap: 2rem;
     justify-content: space-around;
     list-style: none;
@@ -587,6 +582,12 @@
     padding-top: 2rem;
   }
 
+  .partner-list p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   footer .footer-list p {
     color: black;
   }
@@ -599,12 +600,6 @@
     padding-right: 2rem;
     gap: 2rem;
     margin-top: 1rem;
-  }
-
-  .partner-list p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   .footer-list {

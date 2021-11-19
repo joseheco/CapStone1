@@ -62,15 +62,10 @@
     z-index: 10;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
     transition: top 0.8s ease;
     display: none;
     background-color: white;
     list-style: none;
-    background-image: url("./images/img-menu-1.png"),
-      url("./images/img-menu-2.png");
-    background-repeat: no-repeat, no-repeat;
-    background-position: top left, bottom;
     padding-bottom: 6rem;
   }
 
@@ -147,9 +142,9 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    margin: 1rem;
     margin-bottom: 3rem;
     text-align: center;
-    margin: 1rem;
   }
 
   .places {
@@ -184,7 +179,6 @@
     background-image: url("./img/event-2.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    margin-bottom: rem;
   }
 
   .chef-event-2 .layer {
@@ -225,6 +219,13 @@
     text-decoration-thickness: 10%;
   }
 
+  .partner-list p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+
   footer .footer-list p {
     color: black;
   }
@@ -240,13 +241,6 @@
 
   .img-fluid {
     max-width: 45%;
-  }
-
-  .partner-list p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1.5rem;
   }
 
   .footer-list {
@@ -280,13 +274,11 @@
 
   nav {
     display: grid;
-    grid-template-rows: 2;
   }
 
   nav ul {
     background-color: white;
     display: flex;
-    flex-direction: wrap;
     gap: 2rem;
     justify-content: space-around;
     list-style: none;
