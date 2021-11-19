@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   #overlay {
     position: fixed;
     opacity: 0;
@@ -13,12 +13,12 @@
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.253);
     pointer-events: none;
-    }
-  
+  }
+
   #overlay.active {
     pointer-events: all;
     opacity: 1;
-    }
+  }
 
   nav .mainMenu,
   .closeMenu {
@@ -26,11 +26,11 @@
     font-size: 15px;
     cursor: pointer;
   }
-  
+
   nav .top-bar {
     display: none;
   }
-  
+
   nav .closeMenu {
     display: block;
     position: absolute;
@@ -38,255 +38,256 @@
     left: 30px;
   }
 
-.mainMenu li {
-  margin-top: 1.5rem;
-}
+  .mainMenu li {
+    margin-top: 1.5rem;
+  }
 
   .mainMenu li a {
     text-decoration: none;
     color: black;
-    
   }
 
-.openMenu {
-  display: block;
-  margin: 2rem;
-  cursor: pointer;
+  .openMenu {
+    display: block;
+    margin: 2rem;
+    cursor: pointer;
   }
 
-nav .mainMenu {
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  right: 50px;
-  left: 0;
-  z-index: 10;
-  flex-direction: column;
-  justify-content: center;
-  align-items: left;
-  transition: top 0.8s ease;
-  display: none;
-  background-color: white;
-  list-style: none;
-  background-image: url('./images/img-menu-1.png'), url('./images/img-menu-2.png');
-  background-repeat: no-repeat, no-repeat;
-  background-position: top left, bottom;
-  padding-bottom: 6rem;
+  nav .mainMenu {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 50px;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    transition: top 0.8s ease;
+    display: none;
+    background-color: white;
+    list-style: none;
+    background-image: url("./images/img-menu-1.png"),
+      url("./images/img-menu-2.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, bottom;
+    padding-bottom: 6rem;
+  }
+
+  .nav-4 {
+    color: #c7724b !important;
+    border: 3px solid #c7724b;
+    padding: 0.6rem;
+  }
+
+  header {
+    background-image: url("./img/background-h1.jpg");
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  h1,
+  .box-text,
+  .box-event,
+  .date-event,
+  .last-text {
+    margin: 2rem;
+  }
+
+  h1 {
+    font-family: cocogoose, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .box-text {
+    font-family: lato, sans-serif;
+    background-color: rgba(255, 255, 255, 0.644);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid white;
+    border-radius: 3px;
+    text-align: center;
+  }
+
+  .date-event {
+    font-family: lato, sans-serif;
+    display: flex;
+    justify-content: center;
+  }
+
+  .last-text {
+    font-family: lato, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+  }
+
+  main {
+    border-bottom: 1px solid lightgray;
+  }
+
+  h2 {
+    font-family: cocogoose, sans-serif;
+    color: black;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-top: 1.5rem;
+    text-decoration: underline;
+    text-decoration-color: #c7724b;
+    text-decoration-thickness: 10%;
+    text-underline-offset: 0.6rem;
+  }
+
+  .mid-part {
+    font-family: lato, sans-serif;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3rem;
+    text-align: center;
+    margin: 1rem;
+  }
+
+  .places {
+    font-family: lato, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    margin: 1rem;
+  }
+
+  .chef {
+    border: 1px solid lightgray;
+    padding: 1rem 5rem;
+    border-radius: 2px;
+  }
+
+  .chef-event-1 {
+    background-image: url("./img/event-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 2rem;
+  }
+
+  .chef-event-1 .layer {
+    background-color: rgba(226, 110, 14, 0.692);
+    z-index: 10;
+    background-position: center;
+    width: 37vh;
+    height: 25vh;
+  }
+
+  .chef-event-2 {
+    background-image: url("./img/event-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: rem;
+  }
+
+  .chef-event-2 .layer {
+    background-color: rgba(226, 110, 14, 0.692);
+    z-index: 10;
+    background-position: center;
+    width: 37vh;
+    height: 25vh;
+  }
+
+  .layer .year {
+    font-family: lato, sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 4.5rem;
+    color: white;
+  }
+
+  .layer p {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+  .partner {
+    background-color: #270404;
+    color: white;
+  }
+
+  .partner h3 {
+    text-align: center;
+    padding-top: 2rem;
+    text-decoration: underline;
+    text-decoration-color: #c7724b;
+    text-underline-offset: 0.6rem;
+    text-decoration-thickness: 10%;
+  }
+
+  footer .footer-list p {
+    color: black;
+  }
+
+  .partner-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 1rem;
+  }
+
+  .img-fluid {
+    max-width: 45%;
+  }
+
+  .partner-list p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .footer-list {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    justify-content: space-around;
+  }
+
+  .copy {
+    grid-column-start: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .peru {
+    margin-top: 2rem;
+  }
+
+  .rights {
+    grid-column-start: 2;
+  }
 }
 
-.nav-4 {
-  color: #c7724b !important;
-  border: 3px solid #c7724b;
-  padding: 0.6rem;
-}
-
-header {
-  background-image: url("./img/background-h1.jpg");
-  padding-top: 1rem;
-  padding-bottom:1rem;
-}
-
-h1,
-.box-text,
-.box-event,
-.date-event,
-.last-text {
-  margin: 2rem;
-}
-
-h1 {
-  font-family: cocogoose, sans-serif;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
-.box-text {
-  font-family: lato, sans-serif;
-  background-color: rgba(255, 255, 255, 0.644);
-  background-color: rgb(255, 255, 255);
-  border: 1px solid white;
-  border-radius: 3px;
-  text-align: center;
-}
-
-.date-event {
-  font-family: lato, sans-serif;
-  display: flex;
-  justify-content: center;
-}
-
-.last-text {
-  font-family: lato, sans-serif;
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-  text-decoration: underline;
-}
-
-main {
-  border-bottom: 1px solid lightgray;
-}
-
-h2 {
-  font-family: cocogoose, sans-serif;
-  color: black;
-  text-align: center;
-  margin-bottom: 2rem;
-  padding-top: 1.5rem;
-  text-decoration: underline;
-  text-decoration-color: #c7724b;
-  text-decoration-thickness: 10%;
-  text-underline-offset: 0.6rem;
-}
-
-.mid-part {
-  font-family: lato, sans-serif;
-  font-size: 13px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  margin-bottom: 3rem;
-  text-align: center;
-  margin: 1rem;
-}
-
-.places {
-  font-family: lato, sans-serif;
-  font-size: 13px;
-  text-align: center;
-  margin: 1rem;
-}
-
-.chef {
-  border: 1px solid lightgray;
-  padding: 1rem 5rem;
-  border-radius: 2px;
-}
-
-.chef-event-1 {
-  background-image: url("./img/event-1.jpg");
-  background-repeat: no-repeat;
-  background-position: center; 
-  margin-bottom: 2rem;
-}
-
-.chef-event-1 .layer {
-  background-color: rgba(226, 110, 14, 0.692);
-  z-index: 10;
-  background-position: center; 
-  width: 37vh;
-  height: 25vh;
-}
-
-.chef-event-2 {
-  background-image: url("./img/event-2.jpg");
-  background-repeat: no-repeat;
-  background-position: center; 
-  margin-bottom: rem;
-}
-
-.chef-event-2 .layer {
-  background-color: rgba(226, 110, 14, 0.692);
-  z-index: 10;
-  background-position: center; 
-  width: 37vh;
-  height: 25vh;
-}
-
-.layer .year {
-  font-family: lato, sans-serif;
-  font-size: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-  padding-top: 4.5rem;
-  color:white;
-}
-
-.layer p {
-  display: flex;
-  justify-content: center;
-  color:white;
-}
-
-.partner {
-  background-color: #270404;
-  color: white;
-}
-
-.partner h3 {
-  text-align: center;
-  padding-top: 2rem;
-  text-decoration: underline;
-  text-decoration-color: #c7724b;
-  text-underline-offset: 0.6rem;
-  text-decoration-thickness: 10%;
-}
-
-footer .footer-list p {
-  color: black;
-}
-
-.partner-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  margin-top: 1rem;
-}
-
-.img-fluid {
-  max-width: 45%;
-}
-
-.partner-list p {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 1.5rem;
-}
-
-.footer-list {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
-  justify-content: space-around;
-}
-
-.copy {
-  grid-column-start:1;
-  display:flex;
-  justify-content: center;
-  margin-top: 2rem;
-}
-
-.peru {
-  margin-top: 2rem;
-}
-
-.rights {
-  grid-column-start: 2;
-}
-}
-
-@media screen and (min-width: 768px){
-  .openMenu, .closeMenu {
+@media screen and (min-width: 768px) {
+  .openMenu,
+  .closeMenu {
     display: none;
   }
 
   nav {
     display: grid;
-    grid-template-rows: 2; 
+    grid-template-rows: 2;
   }
 
   nav ul {
     background-color: white;
     display: flex;
     flex-direction: wrap;
-    gap: 2rem; 
+    gap: 2rem;
     justify-content: space-around;
     list-style: none;
     padding-top: 1.2rem;
@@ -294,7 +295,7 @@ footer .footer-list p {
     align-items: center;
     border-bottom: 1px solid rgba(49, 49, 49, 0.247);
   }
-  
+
   ul a {
     text-decoration: none;
     color: black;
@@ -305,7 +306,7 @@ footer .footer-list p {
     gap: 2rem;
     justify-content: flex-end;
     background-color: #8a7f7a;
-    color:white;
+    color: white;
     padding: 0.5rem;
     padding-right: 5rem;
   }
@@ -352,7 +353,7 @@ footer .footer-list p {
     border-radius: 3px;
   }
 
-  .date-event{
+  .date-event {
     font-family: lato, sans-serif;
     grid-row-start: 5;
     grid-column-start: 2;
@@ -376,7 +377,7 @@ footer .footer-list p {
   main {
     border-bottom: 1px solid lightgray;
   }
-  
+
   h2 {
     font-family: cocogoose, sans-serif;
     color: black;
@@ -394,7 +395,7 @@ footer .footer-list p {
     text-align: center;
     font-family: lato, sans-serif;
   }
-  
+
   .mid-part {
     display: flex;
     flex-direction: column;
@@ -410,7 +411,7 @@ footer .footer-list p {
     text-align: center;
     margin-bottom: 2rem;
   }
-  
+
   .chef {
     border: 1px solid lightgray;
     padding: 1rem 5rem;
@@ -420,20 +421,19 @@ footer .footer-list p {
   .back-about {
     display: flex;
     justify-content: center;
-    gap: 2rem
+    gap: 2rem;
   }
 
   .chef-event-1 {
     background-image: url("./img/event-1.jpg");
     background-repeat: no-repeat;
-    background-position: center; 
-    
+    background-position: center;
   }
 
   .chef-event-1 .layer {
     background-color: rgba(226, 110, 14, 0.692);
     z-index: 10;
-    background-position: center; 
+    background-position: center;
     width: 37vh;
     height: 25vh;
   }
@@ -441,7 +441,7 @@ footer .footer-list p {
   .chef-event-2 {
     background-image: url("./img/event-2.jpg");
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
   }
 
   .chef-event-2 .layer {
@@ -463,11 +463,11 @@ footer .footer-list p {
   .layer p {
     display: flex;
     justify-content: center;
-    color:white;
+    color: white;
   }
 
   .partner {
-    display:none;
+    display: none;
     background-color: #270404;
     color: white;
   }
@@ -488,7 +488,7 @@ footer .footer-list p {
   }
 
   .partner-list p {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
   }
@@ -499,7 +499,7 @@ footer .footer-list p {
   }
 
   footer .footer-list p {
-    color: white
+    color: white;
   }
 
   .footer-list {
@@ -512,19 +512,19 @@ footer .footer-list p {
   .copy {
     font-family: cocogoose, sans-serif;
     font-size: 30px;
-    grid-column-start:1;
-    display:flex;
+    grid-column-start: 1;
+    display: flex;
     justify-content: center;
     margin-top: 2rem;
   }
-  
+
   .peru {
     text-align: center;
     font-family: late, sans-serif;
     margin-top: 2rem;
     margin-right: 2rem;
   }
-  
+
   .rights {
     text-align: center;
     font-family: late, sans-serif;
