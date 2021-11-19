@@ -90,7 +90,7 @@
   }
 
   h1 {
-    font-family: cocogoose, sans-serif;
+    font-family: 'COCOGOOSE', sans-serif;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -124,7 +124,7 @@
   }
 
   h2 {
-    font-family: cocogoose, sans-serif;
+    font-family: 'COCOGOOSE', sans-serif;
     color: black;
     text-align: center;
     margin-bottom: 2rem;
@@ -219,7 +219,7 @@
     text-decoration-thickness: 10%;
   }
 
-  .partner-list p {
+  .partner-list li {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -237,6 +237,7 @@
     padding-left: 2rem;
     padding-right: 2rem;
     margin-top: 1rem;
+    list-style: none;
   }
 
   .img-fluid {
@@ -324,7 +325,7 @@
   }
 
   h1 {
-    font-family: cocogoose, sans-serif;
+    font-family: 'COCOGOOSE', sans-serif;
     grid-row-start: 2;
     grid-column-start: 3;
     grid-column-end: 5;
@@ -337,12 +338,15 @@
   .box-text {
     font-family: lato, sans-serif;
     grid-row-start: 3;
+    grid-row-end: 4;
     grid-column-start: 2;
     grid-column-end: 6;
     background-color: rgb(255, 255, 255);
     border: 1px solid white;
     padding: 0.2rem;
     border-radius: 3px;
+    margin-left: 11rem;
+    margin-right: 11rem;
   }
 
   .date-event {
@@ -371,7 +375,7 @@
   }
 
   h2 {
-    font-family: cocogoose, sans-serif;
+    font-family: 'COCOGOOSE', sans-serif;
     color: black;
     text-align: center;
     margin-bottom: 2rem;
@@ -446,7 +450,7 @@
 
   .layer .year {
     display: flex;
-    font-family: cocogoose, sans-serif;
+    font-family: 'COCOGOOSE', sans-serif;
     font-size: 30px;
     justify-content: center;
     padding-top: 5rem;
@@ -477,12 +481,14 @@
     padding-right: 2rem;
     gap: 2rem;
     margin-top: 1rem;
+    list-style: none;
   }
 
-  .partner-list p {
+  .partner-list li {
     display: flex;
     justify-content: center;
     align-items: center;
+    list-style: none;
   }
 
   footer {
@@ -502,7 +508,7 @@
   }
 
   .copy {
-    font-family: cocogoose, sans-serif;
+    font-family: 'COCOGOOSE', sans-serif;
     font-size: 30px;
     grid-column-start: 1;
     display: flex;

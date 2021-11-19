@@ -48,5 +48,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-- This project is [MIT](./MIT.md) licensed.
 - Original design idea by [Cindy Shin in Behance.](https://www.behance.net/adagio07)
