@@ -1,76 +1,52 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# My Capstone
 
-> One paragraph statement about the project.
 
-![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+<a href="https://ibb.co/XV8Tvdx"><img src="https://i.ibb.co/nRCS5VM/web-project.jpg" alt="web-project" border="0"></a>
+
+Welcome to My Capstone
+
+- Project: Dsiplay Website in Mobile and Desktop version.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS - Flexbox - Grid
+- JavaScript
+
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+- [Live demo](https://joseheco.github.io/Capstone1/)
 
+## Prerequisites
 
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+Basic:
+  - HTML
+  - CSS
+  - Git
+  - JavaScript
 
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@joseheco](https://github.com/joseheco)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/joseherreraco)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+## Video Record
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Loom: [Loom](https://www.loom.com/share/8d9425e339e24ad985c18e4f5def132d)
+
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+- This project is [MIT](./MIT.md) licensed.
+- Original design idea by [Cindy Shin in Behance.](https://www.behance.net/adagio07)
