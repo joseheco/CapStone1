@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+@import url(//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE);
+
+/* Mbile display */
 
 @media screen and (max-width: 768px) {
   #overlay {
