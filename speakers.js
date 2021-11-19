@@ -62,8 +62,7 @@ function createChefs(cards) {
   pTag.className = 'flex';
   pTag.textContent = cards.p;
   sectionTag.appendChild(pTag);
-  
-  
+
   main.insertAdjacentElement('afterend', card);
 }
 
