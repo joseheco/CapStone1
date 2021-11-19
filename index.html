@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/5f1b7e3077.js" crossorigin="anonymous"></script>
+    <title>Capstone</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="top-bar">
+          <a><i class="fab fa-facebook-f"></i></a>
+          <a><i class="fab fa-twitter"></i></a>
+          <a>Spanish</a>
+          <a>Donations</a>
+          <a>More</a>
+        </div>
+        <ul class="mainMenu" id="img-menu-2">
+          <li><img src="./img/chef.png" alt="chef" class="chef-icon"></li>
+          <li><a href="index.html" class="nav-1">Home</a></li>
+          <li><a href="#project" class="nav-2">History</a></li>
+          <li><a href="./about.html" class="nav-3">About</a></li>
+          <li><a href="#contact-me" class="nav-4">Reservation</a></li>
+          <li>
+            <div class="closeMenu"><i class="fa fa-times"></i></div>
+          </li>
+        </ul>
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+        <div id="overlay"></div>
+      </nav>
+      <section class="first-page">
+        <h1>Chef <br> conference 2022</h1>
+
+        <p class="box-text">In this conference you will be able to see the new avant-garde
+          techniques of recent times, meet and talk with important people in the culinary sector,
+          and see live preparations of new launch menus</p>
+        <p class="date-event">Conference 2022.04.01 - 02</p>
+        <p class="last-text">@ Lima city developer and Miraflores district</p>
+      </section>
+    </header>
+
+    <main>
+      <h2 class="line">Main Program</h2>
+      
+      <section class="container">
+
+        <div class="box one">
+          <a><img src="./img/lecture.png" class="icon-program" alt="conference"></a>
+          <h5 class="card-title">Lecture</h5>
+          <p class="card-text">Listen to the speakers from various part of Peru and international.</p>
+        </div>
+
+        <div class="box two">
+          <a><img src="./img/cooking (1).png" class="" alt="conference"></a>
+          <h5 class="card-title">CC Exhibition</h5>
+          <p class="card-text">Display of their latest cutting-edge culinary techniques of your best chefs.</p>
+        </div>
+
+        <div class="box three">
+          <a><img src="./img/chat-group.png" class="" alt="conference"></a>
+          <h5 class="card-title">Forum</h5>
+          <p class="card-text">Have time to share your thoughts and opinions with experts for each topic.</p>
+        </div>
+
+        <div class="box four">
+          <a><img src="./img/cooking (2).png" class="" alt="conference"></a>
+          <h5 class="card-title">Demo</h5>
+          <p class="card-text">Demonstration of the latest culinary innovations throughout this year.</p>
+        </div>
+
+        <div class="box five">
+          <a><img src="./img/network.png" class="" alt="conference"></a>
+          <h5 class="card-title">CC Ignite</h5>
+          <p class="card-text">Get opportunities to network around the world, also after the summit.</p>
+        </div>
+
+      </section>
+      <div class="button-main">
+        <button type="button" class="main-button"> Reserve ticket Chef conference 2022</button>  
+      </div>
+      </main>
+
+      <section>
+        <h2  class="line" id="h2-chef">Featured Speakers</h2>
+        <section id="grid-speaker">
+          <div id="speaker"></div>
+        </section>
+        <div class="last-button">
+          <div class="d-grid gap-2 col-9 mb-5 pt-5 mx-auto">
+            <button type="button" class="btn btn-outline-secondary">MORE</button>
+          </div>
+        </div>
+      </section>
+
+
+    <section class="partner">
+      <h3>Partner</h3>
+      <div class="partner-list">
+        <p class="p1">
+          <img src="./img/coke.png" class="img-fluid" alt="coke">
+        </p>
+        <p class="p2">
+          <img src="./img/corona.png" class="img-fluid" alt="bread">
+        </p>
+        <p class="p3">
+          <img src="./img/gatorade.png" class="img-fluid" alt="food car">
+        </p>
+        <p class="p4">
+          <img src="./img/nestle.png" class="img-fluid" alt="coke2">
+        </p>
+        <p class="p5">
+          <img src="./img/heineken.png" class="img-fluid" alt="sushi">
+        </p>
+      </div>
+    </section>    
+
+    <footer>
+      <div class="footer-list">
+        <p class="copy">&copy; Peru brand</p>
+        <p class="peru">2021 Peru Company</p>
+        <p class="rights">Some Rights Reserved</p>
+      </div>
+    </footer>
+
+
+    <script src="speakers.js"></script>
+    <script src="main.js"></script>
+  </body>
+
+</html>
