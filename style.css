@@ -115,7 +115,7 @@
   }
 
   main {
-    background-image: url("./img/background-food.jpg");
+    background-image: url("./img/background-food-1.jpg");
   }
 
   h2 {
@@ -257,11 +257,12 @@
     display: none;
   }
 
-  .partner-list p {
+  .partner-list li {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 1.5rem;
+    list-style: none;
   }
 
   footer .footer-list p {
@@ -400,7 +401,7 @@
   }
 
   main {
-    background-image: url("./img/background-food.jpg");
+    background-image: url("./img/background-food-1.jpg");
   }
 
   main h2 {
