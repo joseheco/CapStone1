@@ -84,7 +84,9 @@
   }
 
   .first-page h1 {
-    color: orange;
+    color: rgba(235, 144, 8, 0.918);
+    font-weight: 600;
+    font-size: 40px;
     font-family: 'COCOGOOSE', sans-serif;
   }
 
