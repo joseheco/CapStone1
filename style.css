@@ -3,8 +3,6 @@
   padding: 0;
 }
 
-@import url(//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE);
-
 /* Mobil display version */
 
 @media screen and (max-width: 768px) {
@@ -85,7 +83,8 @@
     padding-bottom: 1rem;
   }
 
-  h1 {
+  .first-page h1 {
+    color: orange;
     font-family: 'COCOGOOSE', sans-serif;
   }
 
@@ -363,10 +362,13 @@
   .first-page {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
   }
 
   h1 {
+    color: rgba(235, 144, 8, 0.918);
+    font-weight: 700;
+    font-size: 50px;
     grid-row-start: 2;
     grid-column-start: 2;
     grid-column-end: 5;
