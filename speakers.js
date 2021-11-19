@@ -45,7 +45,7 @@ function createChefs(cards) {
   card.className = `speaker sp${num}`;
   num -= 1;
   const img = document.createElement('img');
-  img.altName = "chefs";
+  img.altName = 'Top chefs';
   img.className = 'speaker-img';
   img.srcset = cards.images;
   card.appendChild(img);
