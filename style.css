@@ -83,19 +83,19 @@
     padding-bottom: 1rem;
   }
 
-  .first-page h1 {
-    color: rgba(235, 144, 8, 0.918);
-    font-weight: 600;
-    font-size: 40px;
-    font-family: 'COCOGOOSE', sans-serif;
-  }
-
   h1,
   .box-text,
   .box-event,
   .date-event,
   .last-text {
     margin: 2rem;
+  }
+
+  .first-page h1 {
+    color: rgba(235, 144, 8, 0.918);
+    font-weight: 600;
+    font-size: 40px;
+    font-family: 'COCOGOOSE', sans-serif;
   }
 
   .box-text {
